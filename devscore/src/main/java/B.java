@@ -12,6 +12,13 @@ public class B {
         return name;
     }
 
+    public String doAwesomeStuff(String type) {
+        if(type == "super") {
+            return "Super Awesome Stuff";
+        }
+        return "Awesome Stuff";
+    }
+
     public void print(){
         System.out.println(name);
     }
