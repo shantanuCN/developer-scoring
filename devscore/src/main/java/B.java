@@ -4,6 +4,10 @@ public class B {
         name = null;
     }
 
+    public void change1(){
+        System.out.println("ch1");
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -17,6 +21,10 @@ public class B {
             return "Super Awesome Stuff";
         }
         return "Awesome Stuff";
+    }
+
+    public void change1(){
+        System.out.println("ch2");
     }
 
     public void print(){
